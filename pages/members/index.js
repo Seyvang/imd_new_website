@@ -21,7 +21,7 @@ function MemberPage() {
           <Row xs={1} md={2} lg={4} className="g-4 p-1">
             {test_array.map((num) => {
               return (
-                <Card >
+                <Card key={num}>
                   <Card.Img
                     variant="top"
                     src="https://via.placeholder.com/150"

@@ -9,7 +9,7 @@ function HeadNav() {
     <div>
       <Navbar fixed="top" expand="lg" bg="primary">
         <Container className="bg-primary">
-          <Link href="/">
+          <Link href="/" passHref>
             <Navbar.Brand href="#home">
               <Image
                 width={60}
