@@ -2,9 +2,10 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
+import logo from '../public/assets/logo_imd.png'
 
 function HeadNav() {
-    const logo_source = "/../public/assets/logo_imd.png"
+    // const logo_source = "./../public/assets/logo_imd.png"
   return (
     <div>
       <Navbar fixed="top" expand="lg" bg="primary">
@@ -15,7 +16,7 @@ function HeadNav() {
                 width={60}
                 height={30}
                 // layout="responsive"
-                src="/../public/assets/logo_imd.png"
+                src={logo}
                 alt="rig1_staining"
               />
             </Navbar.Brand>

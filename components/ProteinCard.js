@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import test_image from '../public/assets/PI_PA.jpg'
 
 function ProteinCard() {
   return (
@@ -7,7 +8,7 @@ function ProteinCard() {
         <Image
             width={500}
             height={500}
-            src='/../public/assets/PI_PA.jpg'
+            src={test_image}
             alt='rig1_staining'
         />
     </div>
