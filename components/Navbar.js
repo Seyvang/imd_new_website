@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 
 function HeadNav() {
     const logo_source = "/../public/assets/logo_imd.png"
