@@ -37,7 +37,7 @@ export const members = [
     },
     {
         id: 8,
-        name: "Deeptha Ksomething",
+        name: "Deeptha Kumaraswamy",
         position: "Research Associate"
     },
     {
@@ -47,7 +47,7 @@ export const members = [
     },
     {
         id: 10,
-        name: "Tiffany Uhh",
+        name: "Tiffany Thompson",
         position: "Graduate Student"
     },
 ]

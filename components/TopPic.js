@@ -18,6 +18,7 @@ function TopPic() {
                 src={campus}
                 objectFit='cover'
                 alt="campus picture"
+                quality={10}
                 className={styles.backgroundImg}
             />
             <div className={styles.box}>

@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import HeadNav from '../components/Navbar';
-
+import Maps from '../components/Maps'
 function Home() {
   return (
     <>

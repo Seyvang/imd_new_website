@@ -7,7 +7,8 @@ function Footer() {
 
     return (
         <Container className="d-flex flex-column justify-content-center padding=">
-            <footer className='text-center'>Copyright 2022 Steven Kim Contact at stevenskim@outlook.com</footer>
+            <footer className='text-center'>Copyright 2022 Genesis Biotechnology Group. Contact at jnickels@mdlab.com</footer>
+            {/* <footer className='text-center'>Copyright 2022 Steven Kim Contact at stevenskim@outlook.com</footer> */}
         </Container>
     )
 }
