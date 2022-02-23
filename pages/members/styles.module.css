@@ -4,3 +4,8 @@
     align-self: center;
     margin: 10% 0;
 }
+
+.profilePic:hover {
+    cursor: pointer;
+    filter: blur(2px);
+}

@@ -18,11 +18,11 @@ function TopPic() {
                 src={campus}
                 objectFit='cover'
                 alt="campus picture"
-                quality={10}
+                quality={60}
                 className={styles.backgroundImg}
             />
             <div className={styles.box}>
-                <h1 className='display-1 text-center text-dark'>Institute of Metabolic Disorders</h1>
+                <h1 className='display-1 text-center text-white'>Institute of Metabolic Disorders</h1>
             </div>
             
             

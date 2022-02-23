@@ -9,4 +9,5 @@ module.exports = {
     domains: ['via.placeholder.com']
   },
   basePath: '',
+  
 }

@@ -2,10 +2,12 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
-import logo from '../public/assets/logo_imd.png'
+import logo from "../public/assets/logo_imd.png";
+import genesis_logo from "../public/assets/genesis_logo.png";
+import styles from './Navbar.module.css'
 
 function HeadNav() {
-    // const logo_source = "./../public/assets/logo_imd.png"
+  // const logo_source = "./../public/assets/logo_imd.png"
   return (
     <div>
       <Navbar fixed="top" expand="lg" bg="primary">
@@ -23,10 +25,7 @@ function HeadNav() {
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto justify-content-end">
-              <Link href="/about" passHref>
-                <Nav.Link>About</Nav.Link>
-              </Link>
+            <Nav className="me-auto ">
               <Link href="/publications" passHref>
                 <Nav.Link>Publications</Nav.Link>
               </Link>
@@ -39,9 +38,21 @@ function HeadNav() {
               <Link href="/contact" passHref>
                 <Nav.Link>Contact</Nav.Link>
               </Link>
+              
             </Nav>
           </Navbar.Collapse>
+          <Navbar.Brand href="https://genesisbiotechgroup.com/" className='flew-row-reverse'>
+                <Image
+                  width={60}
+                  height={30}
+                  // layout="responsive"
+                  src={genesis_logo}
+                  alt="rig1_staining"
+                  className={styles.genesis_logo}
+                />
+              </Navbar.Brand>
         </Container>
+        
       </Navbar>
       <br></br>
     </div>
