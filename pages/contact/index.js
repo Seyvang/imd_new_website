@@ -1,8 +1,17 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Maps from "../../components/Maps";
+import dynamic from 'next/dynamic'
 
 function Contact() {
+  const LeafletMaps = React.useMemo(
+    () =>
+      dynamic(() => import("../../components/Map"), {
+        loading: () => <p>Map is loading</p>,
+        ssr: false,
+      }),
+    []
+  );
   return (
     <>
       <Container id="start" className="justify-content-center">
@@ -12,9 +21,9 @@ function Contact() {
           1000 Waterview Drive <br />
           Hamilton, NJ 08690{" "}
         </h2>
-        
+        <LeafletMaps/>
       </Container>
-      <Maps></Maps>
+      
       <br></br>
     </>
   );

@@ -4,6 +4,7 @@ export const publications = [
         authors: "Frietze KK, Brown AM, Das D, Franks RG, Cunningham JL, Hayward M, Nickels, Jr., JT",
         title: "Lipotoxicity reduces DDX58/Rig-1 expression and activity leading to impaired autophagy and cell death",
         year: 2021,
+        link: "https://pubmed.ncbi.nlm.nih.gov/33966599/",
         other: "Autophagy. 2021 May 9:1-19. doi: 10.1080/15548627.2021.1920818. Online ahead of print.PMID: 33966599",
     },
     {
@@ -11,6 +12,7 @@ export const publications = [
         authors: "Villasmil, M.L., Barbosa, A.D., Cunningham, J-L., Siniossoglou, S., and Nickels, Jr., J.T",
         title: "An Erg11 lanosterol 14-α-demethylase-Arv1 complex is required for Candida albicans virulence",
         year: 2020,
+        link: "https://pubmed.ncbi.nlm.nih.gov/32678853/",
         other: "PLoS ONE 15:e0235746.",
     },
     {
@@ -18,6 +20,7 @@ export const publications = [
         authors: "Yang, M., Gallo-Ebert, C., Hayward, M., Liu, W., McDonough, V., and Nickels, Jr., J.T ",
         title: "Human insulin growth factor 2 mRNA binding protein 2 increases miR-33a/b inhibition of liver ABCA1 expression and alters low-density apolipoprotein levels in mice",
         year: 2020,
+        link: "https://pubmed.ncbi.nlm.nih.gov/32482798/",
         other: "Mol. Cell. Biol. 40 e00058-20.'Spotlight; Articles of Significant Interest'",
     },
     {
@@ -25,6 +28,7 @@ export const publications = [
         authors: "Nickels, Jr., J.T. ",
         title: "Anti-parasitic drug discovery takes a giant leap forward",
         year: 2019,
+        link: "https://pubmed.ncbi.nlm.nih.gov/30918064/",
         other: "J. Lipid Res. 60 919-921.",
     },
     {
@@ -32,6 +36,7 @@ export const publications = [
         authors: "Nickels, Jr., J.T. ",
         title: "New links between lipid accumulation and cancer progression",
         year: 2018,
+        link: "https://pubmed.ncbi.nlm.nih.gov/29703762/",
         other: "J. Biol. Chem. 293 6635-6636."
     },
     {
@@ -39,13 +44,15 @@ export const publications = [
         authors: "Gallo-Ebert, C., Francisco, J., Liu, HY., Modi, K., Hayward, M.D., Jones, BK., Buiakova, O., McDonough, V, and Nickels, Jr., J.T. 2018. Mice lacking ARV1 have reduced signs of metabolic syndrome and non-alcoholic fatty liver disease. J. Biol. Chem. 293 5956-5974.",
         title: "New links between lipid accumulation and cancer progression",
         year: 2018,
+        link: "https://pubmed.ncbi.nlm.nih.gov/29491146/",
         other: "J. Biol. Chem. 293 6635-6636."
     },
     {
         id: 7,
-        authors: "Villasmil, M. L., Gallo-Ebert, C., Liu, H-Y., Francisco, J., and Nickels, Jr., J. T. 2017. A link between very long chain fatty acid elongation and mating-specific yeast cell cycle arrest. Cell Cycle 22 2192-2203. *Article featured in Cell Cycle “News and Views”. Dunn, T. M., Gable, K., and Han, G., (2018) Yeast mating: Ceramide acyl chain length matters? Cell Cycle 17 7-8 .",
-        title: "New links between lipid accumulation and cancer progression",
+        authors: "Villasmil, M. L., Gallo-Ebert, C., Liu, H-Y., Francisco, J., and Nickels, Jr., J. T. Cell Cycle 22 2192-2203. *Article featured in Cell Cycle “News and Views”. Dunn, T. M., Gable, K., and Han, G., (2018) Yeast mating: Ceramide acyl chain length matters? Cell Cycle 17 7-8 .",
+        title: "A link between very long chain fatty acid elongation and mating-specific yeast cell cycle arrest",
         year: 2017,
+        link: "https://pubmed.ncbi.nlm.nih.gov/28745545/",
         other: "J. Biol. Chem. 293 6635-6636."
     },
     {
@@ -53,6 +60,7 @@ export const publications = [
         authors: "Villasmil, M. L., Francisco, J., Gallo-Ebert, C., Donigan, M., Liu, H-Y., Brower, M., and Nickels, J. T., Jr. 2016. ",
         title: "Ceramide signals for initiation of yeast mating-specific cell cycle arrest",
         year: 2016,
+        link: "https://pubmed.ncbi.nlm.nih.gov/26726837/",
         other: "Cell Cycle 15 441-454. *Article featured in Cell Cycle “News and Views”. Matmati N, Kitagaki, and Hannun, YA (2016) New role for ceramide in the pheromone response. Cell Cycle 15 617-618 ."
     },
     {
@@ -60,6 +68,7 @@ export const publications = [
         authors: "McCourt, P., Liu, Hsing-Yin., Parker, J.E., Gallo-Ebert, C., Donigan, M., Bata, A., Giordano, C., Kelly, SL., and Nickels, JT., Jr",
         title: "Proper sterol distribution is required for Candida albicans hyphal formation and virulence.",
         year: 2016,
+        link: "https://pubmed.ncbi.nlm.nih.gov/27587298/",
         other: "G3: Genes, Genomes, Genetics 6 3455-3465."
     },
     {
@@ -67,6 +76,7 @@ export const publications = [
         authors: "Villasmil, M. L., J. Francisco, C. Gallo-Ebert, M. Donigan, H. Y. Liu, M. Brower, and J. T. Nickels, Jr. ",
         title: "Ceramide signals for initiation of yeast mating-specific cell cycle arrest",
         year: 2016,
+        link: "https://pubmed.ncbi.nlm.nih.gov/25833693/",
         other: "Cell Cycle 15:441-454.PMID: 26726837"
     },
     {

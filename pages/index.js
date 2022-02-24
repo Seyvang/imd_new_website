@@ -17,11 +17,12 @@ export default function Home() {
         <br></br>
         <h1 className="text-center">This is the About Page</h1>
         <p>
-          Sint minim velit occaecat dolore nostrud proident incididunt minim
-          laboris dolore fugiat ex. Mollit sint deserunt culpa consequat et
-          exercitation voluptate Lorem id. Et nulla laborum ipsum consectetur
-          minim exercitation amet proident mollit et culpa duis. Minim nulla
-          ipsum aliqua minim excepteur ipsum magna quis.
+          The Institute of Metabolic Disorders (IMD) focuses on drug discovery
+          for the treatment of lipid-dependent fatty liver disease (NAFLD/NASH).
+          The Institute will strive to become a respected leader in the field of
+          metabolic disease treatment. Our goal is to increase the quality of
+          life for individuals with metabolic pathologies associated with loss
+          of liver function.
         </p>
       </Container>
       <br></br>

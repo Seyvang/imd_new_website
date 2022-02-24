@@ -1,11 +1,15 @@
 import HeadNav from "../../components/Navbar";
 import TopPic from "../../components/TopPic";
 import { Container } from "react-bootstrap";
-import Footer from "../../components/Footer";
-import Image from "next/image";
-import LeafletMaps from "../../components/LeafletMaps";
+import React from 'react'
+import dynamic from 'next/dynamic'
 
 function Testes() {
+  const LeafletMaps = React.useMemo(() => dynamic(() => 
+    import("../../components/Map"), {
+    loading: () => <p>Map is loading</p>,
+    ssr: false
+  }), [])
 
   return (
     <>
