@@ -29,7 +29,7 @@ function HeadNav() {
               <Link href="/publications" passHref>
                 <Nav.Link>Publications</Nav.Link>
               </Link>
-              <Link href="/projects" passHref>
+              <Link href="/newprojects" passHref>
                 <Nav.Link>Projects</Nav.Link>
               </Link>
               <Link href="/members" passHref>

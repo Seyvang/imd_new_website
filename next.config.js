@@ -9,5 +9,13 @@ module.exports = {
     domains: ['via.placeholder.com']
   },
   basePath: '',
-  
+  async redirects() {
+    return [
+      {
+        source: '/projects',
+        destination: '/newprojects',
+        permanent: true,
+      },
+    ]
+  },
 }
