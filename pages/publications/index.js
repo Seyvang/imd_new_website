@@ -3,13 +3,28 @@ import { Container } from "react-bootstrap";
 import Footer from "../../components/Footer";
 import ProteinCard from "../../components/ProteinCard";
 import { publications } from "../../data/publications.js";
-import React, { useEffect, useState } from "react";
+import React, { useReducer, useEffect } from "react";
 
 function PublicationPage({ articles }) {
-  const [listofArticles, changeArticles] = useState([])
-  useEffect(() => {
-    changeArticles(articles.slice(0,8))
-  }, []);
+
+  const SHORTEN_ARTICLES = "SHORTEN_ARTICLES"
+  const reduce_articles = {
+    type: SHORTEN_ARTICLES,
+    startArticle: 0,
+    endArticle: 8
+  }
+  const articleReducer = (state=articles, action) => {
+    switch(action.type){
+      case "SHORTEN_ARTICLES":
+        return state.slice(action.startArticle, action.endArticle)
+    }
+  }
+  const [listofArticles, dispatch] = useReducer(articleReducer, articles)
+  useEffect(()=>(
+    dispatch(reduce_articles)
+  ), [])
+  
+
   return (
     <>
       <Container id="start" className="justify-content-center">
