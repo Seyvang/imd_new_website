@@ -5,23 +5,23 @@ const redOptions = { color: 'red' }
 const coordinates = [40.19796621812383, -74.65117848554831]
 const Map = () => {
   return (
-    <MapContainer center={coordinates} zoom={13} scrollWheelZoom={false} style={{height: 400, width: "100%"}}>
+    <MapContainer center={coordinates} zoom={15} scrollWheelZoom={false} style={{height: 400, width: "100%"}}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={coordinates}>
+      {/* <Marker position={coordinates}>
         <Popup>
           A pretty CSS3 popup. <br /> Easily customizable.
         </Popup>
-      </Marker>
+      </Marker> */}
       <CircleMarker
         center={coordinates}
         pathOptions={redOptions}
         radius={20}>
-        <Popup>Popup in CircleMarker</Popup>
+        <Popup>Genesis Biotechnology Group Building</Popup>
       </CircleMarker>
-      <Circle center={coordinates} pathOptions={redOptions} radius={200} />
+      {/* <Circle center={coordinates} pathOptions={redOptions} radius={200} /> */}
     </MapContainer>
   )
 }

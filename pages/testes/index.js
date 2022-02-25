@@ -1,20 +1,20 @@
 import HeadNav from "../../components/Navbar";
 import TopPic from "../../components/TopPic";
 import { Container } from "react-bootstrap";
-import React from 'react'
-import dynamic from 'next/dynamic'
+import React from "react";
+import dynamic from "next/dynamic";
+import Link from "next/link";
+import { Document, Page } from "react-pdf";
 
 function Testes() {
-  const LeafletMaps = React.useMemo(() => dynamic(() => 
-    import("../../components/Map"), {
-    loading: () => <p>Map is loading</p>,
-    ssr: false
-  }), [])
-
   return (
     <>
       <Container id="start" className="justify-content-center">
-        <LeafletMaps/>
+        <Link href="/assets/CVs/Steven Kim.docx">
+          <a>
+            Link to test document.
+          </a>
+        </Link>
       </Container>
     </>
   );
