@@ -20,6 +20,7 @@ function PublicationPage({ articles }) {
     }
   }
   const [listofArticles, dispatch] = useReducer(articleReducer, articles)
+
   useEffect(()=>(
     dispatch(reduce_articles)
   ), [])
@@ -30,10 +31,10 @@ function PublicationPage({ articles }) {
       <Container id="start" className="justify-content-center">
         { listofArticles.map((article) => {
           return <div key={article.id}>
-            <h3><a href={article.link} className="text-cyan800">{article.title}</a> </h3>
-            <h4>{article.authors}</h4>
+            <h5><a href={article.link} className="text-dark">{article.title}</a> </h5>
+            <h6>{article.authors}</h6>
             <p>{article.year}. {article.other}</p>
-            <br></br>
+            {/* <br></br> */}
           </div>;
         })}
       </Container>

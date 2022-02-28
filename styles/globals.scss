@@ -1,6 +1,6 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
-
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin-ext,cyrillic); 
 // 2. Include any default variable overrides here
 
 $primary: #0ed0e1;
@@ -50,6 +50,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   // z-index: -2;
 }
 

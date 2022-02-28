@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin-ext,cyrillic);
 /*
 These are the colors used in the IMD website.
 Cyan text: 1ABCE1
@@ -2032,6 +2033,7 @@ a {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
