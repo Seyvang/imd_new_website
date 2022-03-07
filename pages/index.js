@@ -15,7 +15,7 @@ export default function Home() {
       <Container id="start" className="justify-content-center">
         <h1 className="text-center">A Member of Genesis Biotechnology Group</h1>
         <br></br>
-        <h1 className="text-center">This is the About Page</h1>
+        <h1 className="text-center">About Us</h1>
         <p>
           The Institute of Metabolic Disorders (IMD) focuses on drug discovery
           for the treatment of lipid-dependent fatty liver disease (NAFLD/NASH).

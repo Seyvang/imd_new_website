@@ -12,7 +12,7 @@ function MemberPage({ data }) {
   return (
     <>
       <Container id="start" className="justify-content-center">
-        <h1>This is the Members page</h1>
+        <h1>Our Members</h1>
         <p>
           Sint minim velit occaecat dolore nostrud proident incididunt minim
           laboris dolore fugiat ex. Mollit sint deserunt culpa consequat et

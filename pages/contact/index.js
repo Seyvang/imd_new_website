@@ -16,11 +16,16 @@ function Contact() {
     <>
       <Container id="start" className="justify-content-center">
         <h1>Contact Us!</h1>
-        <h2>
+        <br></br>
+        <h3>Email</h3>
+        <h6>jnickels@mdlab.com</h6>
+        <br></br>
+        <h3>Address</h3>
+        <h6>
           Institute of Metabolic Disorders <br />
           1000 Waterview Drive <br />
           Hamilton, NJ 08690{" "}
-        </h2>
+        </h6>
         <LeafletMaps/>
       </Container>
       
