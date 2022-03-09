@@ -19,11 +19,11 @@ function MemberID({ member, memberIndex }) {
       <Link href={`/assets/CVs/${member.name}.pdf`}>
         <a>CV</a>
       </Link>
-      <p>
+      {/* <p>
         Cillum cupidatat voluptate veniam et quis pariatur tempor eu eiusmod
         dolore et ea consequat. Cupidatat do fugiat dolore fugiat in mollit qui.
         Dolore nulla officia aute pariatur velit ex sint laboris sunt.
-      </p>
+      </p> */}
     </Container>
   );
 }

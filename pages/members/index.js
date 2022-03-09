@@ -14,11 +14,9 @@ function MemberPage({ data }) {
       <Container id="start" className="justify-content-center">
         <h1>Our Members</h1>
         <p>
-          Sint minim velit occaecat dolore nostrud proident incididunt minim
-          laboris dolore fugiat ex. Mollit sint deserunt culpa consequat et
-          exercitation voluptate Lorem id. Et nulla laborum ipsum consectetur
-          minim exercitation amet proident mollit et culpa duis. Minim nulla
-          ipsum aliqua minim excepteur ipsum magna quis.
+          Our employees come from diverse backgrounds in scientific knowledge.
+          With over 15 years, the group pursues excellence in finding new discoveries
+          in metabolic disorders and pathways.
         </p>
         <>
           <Row xs={1} md={2} lg={4} className="g-4 p-1">
